@@ -71,6 +71,12 @@ dependencies {
     /**
      * Okhttp3
      */
-    implementation("com.squareup.okhttp3:okhttp:4.11.0")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
+    implementation(libs.okhttp)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+
+    /**
+     * Ktor
+     */
+    implementation(libs.ktor.client.android)
+    implementation(libs.ktor.client.websockets)
 }
